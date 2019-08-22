@@ -1,0 +1,22 @@
+.header {
+    padding: 10px;
+    background-color: #12223D;
+    display: flex;
+    justify-content: space-evenly;
+}
+.link {
+    padding: 10px 20px; 
+    background-color: #ffffffa2;
+    min-width: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+
+}
+.link:hover {
+    background-color: #ffffffe8;
+}
+.link:active {
+    background-color: #ffffffa2;
+}
