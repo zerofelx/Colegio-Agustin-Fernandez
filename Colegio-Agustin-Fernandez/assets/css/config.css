@@ -33,3 +33,13 @@
     margin: 0;
     text-align: center;
 }
+
+.bloqueContenido {
+    padding: 20px;
+}
+
+.contenido {
+    border: 1px solid #EAEAEA;
+    /* min-height: 30vh; */
+    box-shadow: 1px 1px 5px;
+}
