@@ -2,7 +2,10 @@
 body {
     font-family: 'Montserrat';
     margin: 0;
-    background: linear-gradient(to right, #6f9ae6ab, white)
+    background: linear-gradient(to right, #6f9ae6ab, white);
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 h1, h2, h3, h4 {
     margin: 0;
@@ -33,4 +36,14 @@ h1, h2, h3, h4 {
 
 .center {
     text-align: center;
+}
+
+.noMargin {
+    margin: 0;
+}
+.noMarginB {
+    margin-bottom: 0;
+}
+.noMarginT {
+    margin-top: 0;
 }
