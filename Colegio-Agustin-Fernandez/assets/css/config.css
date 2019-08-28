@@ -1,9 +1,17 @@
 .header {
     padding: 10px;
-    background-color: #12223D;
+    background-color: transparent;
     display: flex;
     justify-content: space-evenly;
 }
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60vh;
+}
+
 .link {
     padding: 10px 20px; 
     background-color: #ffffffa2;
@@ -37,6 +45,23 @@
 
 .bloqueContenido {
     padding: 20px;
+    margin: 0 auto;
+
+    animation-duration: 2s;
+    animation-name: acordeonOut;
+    overflow: hidden;
+}
+
+@keyframes acordeonOut {
+    from {
+        width: 0%;
+        color: transparent;
+    }
+
+    to {
+        width: 97.5%;
+        color: initial
+    }
 }
 
 .contenido {
@@ -47,9 +72,63 @@
     box-shadow: 0px 0px 5px rgba(234, 234, 234, 0.616);
     margin-bottom: 20px;
     min-height: 125px;
+
+
+}
+
+.contenedor {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contenedor2 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.imagen {
+    display: flex;
+    justify-content: space-between
 }
 
 .imagen img{
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 15px;
+    max-width: 90%;
+    max-height: 200px;
+}
+
+.imagen img:hover {
+    box-shadow: 1px 1px 10px;
+    cursor: pointer;
+}
+
+.botones {
+    padding: 20px;
+    display: flex;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.space {
+    justify-content: space-between;
+}
+
+.botones button {
+    width: 150px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #ffffffe8;
+    border: 1px solid #EAEAEA;
+    box-shadow: 1px 1px 10px #EAEAEA;
+    outline: transparent;
+    font-size: 16px;
+}
+.botones button:hover {
+    background-color: #FFFFFF
+}
+.botones button:active {
+    background-color: #ffffffe8
 }

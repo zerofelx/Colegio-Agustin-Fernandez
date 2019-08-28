@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,44 +9,64 @@
     <script src="../assets/js/header.js"></script>
     <title>Colegio Agustín Fernandez | 1998 - 2005</title>
 </head>
+
 <body>
     <div id="header">
         <div id="menu" class="header">
-            <script>header("../index.html", "Inicio", "2006-2010.html", "2006 - 2010", "2011-2015.html", "2011 - 2015", "2015-2019.html", "2015 - 2019")</script>
+            <script>header("../index.html", "Inicio", "2006-2010.html", "2006 - 2010", "2011-2015.html", "2011 - 2015", "2016-2019.html", "2016 - 2019")</script>
         </div>
     </div>
 
-    <div class="bloqueContenido">
-        <div class="contenido">
-            <h1 class="center fs-40">1998</h1>
-            <p class="center fs-18">Iniciación de la jornada nocturna con base en el Decreto 3011 de 1997 del 19 de diciembre de 1997.</p>
-        </div>
+    <div id="contenedorPopup" class="oculto">
+        <div id="imagenPopup">
 
-        <div class="contenido">
-            <h1 class="center fs-40">2002</h1>
-            <p class="center fs-18 noMarginB">Programa Nacional de Alfabetización y Educación Básica y Media de Jóvenes y Adultos propuesto por el MEN</p>
-            <p class="center fs-18 noMarginT">Primera Promoción Bachilleres jornada Nocturna</p>
-        </div>
-
-        <div class="contenido">
-            <h1 class="center fs-40">2003</h1>
-            <p class="center fs-18">Proyecto de caminatas ecológicas con el grupo 'SALSIPUEDES' Conferencias sobre salud e Higiene</p>
-        </div>
-
-        <div class="contenido">
-            <h1 class="center fs-40">2004</h1>
-            <p class="center fs-18">Iniciación Festival de Talentos, participan las tres sedes y colegios invitados.</p>
-            <div class="imagen">
-                <img src="../assets/images/2004.png" alt="">
-            </div>
-        </div>
-
-        <div class="contenido">
-            <h1 class="center fs-40">2005</h1>
-            <p class="center fs-18">Asistencia e implementación del curso de capacitación de emprendimiento empresarial.</p>
         </div>
     </div>
-
     
+    <div class="bloqueContenido">
+            <div class="contenido">
+                <div class="contenedor">
+                    <h1 class="center fs-40">1998</h1>
+                    <p class="center fs-20">Iniciación de la jornada nocturna con base en el Decreto 3011 de 1997 del 19 de diciembre de 1997.</p>
+                </div>
+            </div>
+
+            <div class="contenido">
+                <div class="contenedor">
+                    <h1 class="center fs-40">2002</h1>
+                    <p class="center fs-20 noMarginB">Programa Nacional de Alfabetización y Educación Básica y Media de Jóvenes y Adultos propuesto por el MEN</p>
+                    <p class="center fs-20 noMarginT">Primera Promoción Bachilleres jornada Nocturna</p>
+                </div>
+            </div>
+
+            <div class="contenido">
+                <div class="contenedor">
+
+                    <h1 class="center fs-40">2003</h1>
+                    <p class="center fs-20">Proyecto de caminatas ecológicas con el grupo 'SALSIPUEDES' Conferencias sobre salud e Higiene</p>
+                </div>
+            </div>
+
+            <div class="contenido">
+                <div class="contenedor">
+                    <h1 class="center fs-40">2004</h1>
+                    <p class="center fs-20">Iniciación Festival de Talentos, participan las tres sedes y colegios invitados.</p>
+                    <div class="imagen">
+                        <img onclick="popup('../assets/images/2004.png')" src="../assets/images/2004.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenido">
+                <div class="contenedor">
+                    <h1 class="center fs-40">2005</h1>
+                    <p class="center fs-20">Asistencia e implementación del curso de capacitación de emprendimiento empresarial.</p>
+                </div>
+            </div>
+    </div>
+
+<script src="../assets/js/popup.js"></script>
+
 </body>
+
 </html>
