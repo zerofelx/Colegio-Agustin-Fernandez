@@ -15,7 +15,7 @@ function Inicio() {
             <br>
             <p class="fs-30">90 años de esfuerzo para generar un grandioso futuro para nosotros sus estudiantes</p>
             <br>
-            <p class="fs-25">Esta página tiene como objetivo presentar una linea temporal de el colegio</p>
+            <p class="fs-25">Esta página tiene como objetivo presentar una línea temporal del colegio</p>
             <p class="fs-30"><strong>Agustín Fernández</strong></p>
         </div>
 
