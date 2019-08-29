@@ -47,7 +47,7 @@
     padding: 20px;
     margin: 0 auto;
 
-    animation-duration: 2.5s;
+    animation-duration: 2s;
     animation-name: acordeonOut;
     overflow: hidden;
 }
