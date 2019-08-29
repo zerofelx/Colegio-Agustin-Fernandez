@@ -7,9 +7,9 @@ body {
     background: linear-gradient(#6f9ae6ab, white);
     min-height: 100vh;
 }
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     display: none;
-}
+} */
 h1, h2, h3, h4 {
     margin: 0;
 }
