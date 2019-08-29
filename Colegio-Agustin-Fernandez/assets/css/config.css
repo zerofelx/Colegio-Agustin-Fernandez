@@ -47,31 +47,20 @@
     padding: 20px;
     margin: 0 auto;
 
-    animation-duration: 2s;
+    animation-duration: 2.5s;
     animation-name: acordeonOut;
     overflow: hidden;
-    
-    animation: Letras 5s;
 }
 
 @keyframes acordeonOut {
     from {
         width: 0%;
+        color: transparent;
     }
 
     to {
         width: 97.5%;
-    }
-}
-
-@keyframes Letras {
-   from {
-       color: transparent;
-    }
-    
-   to {
-       color: initial;
-       
+        color: initial;
     }
 }
 
