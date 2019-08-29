@@ -11,7 +11,7 @@ function Inicio() {
 
         <div id="contenido" style="width: 100%;">
             <p class="fs-30">Hoy 28 de Agosto del año 2019 el Colegio Agustín Fernández cumple 90 años</p>
-            <p class="fs-30">Y 30 años de la jornada nocturna</p>
+            <p class="fs-30">30 años de la jornada nocturna</p>
             <br>
             <p class="fs-30">90 años de esfuerzo para generar un grandioso futuro para nosotros sus estudiantes</p>
             <br>
